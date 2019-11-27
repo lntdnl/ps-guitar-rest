@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.guitar.model.Location;
 
 @Repository
-public class LocationRepository {
+public class 	LocationRepository {
 	@PersistenceContext
 	private EntityManager entityManager;
 
